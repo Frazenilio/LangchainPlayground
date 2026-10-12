@@ -146,6 +146,8 @@ python main.py
 
 `main.py` will:
 1. Initialize the `OllamaAgent` and query the weather tool for Brescia.
+
+   You can change the city to whatever you like (see _CITY_WEATHER_ variable at the top)
 2. Load/verify the FAISS index for `documents/main.pdf`.
 3. Query the thesis with:
    > *"What are the overall performance of Answer Refinement?"*
